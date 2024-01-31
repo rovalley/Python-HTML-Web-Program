@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transactions</title>
+</head>
+<body>
+<h1>Transactions</h1>
+<h2>2024</h2>
+<table border="1" cellspacing="0" cellpadding="15">
+{%for transaction in transactions_list%}
+
+<tr>
+    <th>Transaction Type and Amount</th>
+    <td>{{transaction["transaction_type"]}}</td>
+    <td>{{transaction["amount"]}}</td>
+</tr>
+{%endfor%}
+</table>
+<br>
+<br>
+<a href ="/" ><button >Back</button></a>
+</body>
+</html>
