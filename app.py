@@ -1,3 +1,17 @@
+'''
+NAME
+    app
+
+DESCRIPTION
+    This module lets you create multiple bank accounts and stores the user information into a
+    database. The module allows you to deposit and withdraw amounts, view transactions and balance
+    information for an individual account.
+
+Created on January 29, 2024
+
+@author: ryan_ovalley
+'''
+
 import sqlite3
 
 from flask import Flask, render_template, request, redirect, session
