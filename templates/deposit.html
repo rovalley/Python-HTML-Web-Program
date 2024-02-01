@@ -7,6 +7,7 @@
 <body>
 <h1>Deposit</h1>
 <form action="/deposit" method="post">
+    {{ error }} <br>
     How much would you like to deposit?
     <br>
     <input type="number" step=".01" name="amount"/>
